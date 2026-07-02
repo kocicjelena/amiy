@@ -8,7 +8,7 @@ A lightweight in-memory CRM built with FastAPI. No database, no authentication.
 
 ```bash
 pip install fastapi uvicorn
-uvicorn crm.main:app --reload
+uvicorn main:app --reload
 ```
 
 Interactive docs available at `http://localhost:8000/docs`.
